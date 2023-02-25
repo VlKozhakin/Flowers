@@ -17,7 +17,7 @@ h1, p {
     margin: 0;
 }
 .wrapper {
-    padding: 40px 55px;
+    padding: 28px;
     max-width: 1920px;
     margin-inline: auto;
 }
@@ -133,6 +133,7 @@ h1, p {
 }
 .line {
     border: 1px solid #E0E0E0;
+    margin-bottom: 80px;
 }
 
 .plant {
@@ -191,9 +192,14 @@ h1, p {
 }
 .shop {
     display: inline-block;
-    padding: 88px 0 88px 97px;
+    padding: 88px 8px 88px 97px;
     max-width: 100%;
     position: relative;
+}
+@media (max-width: 1060px) {
+    .shop {
+    padding: 20px;  
+    }
 }
 
 .shop__info {
@@ -204,7 +210,6 @@ h1, p {
 }
 
 .shop__enter {
-    position: absolute;
     bottom: 0;
     padding: 98px 0;
 }
@@ -219,7 +224,7 @@ h1, p {
     line-height: 20px;
     text-align: center;
     color: #FAFEFE;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}   
+} 
+.b__photo {
+    max-width: 100%;
+}  
